@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #674bb1;
+    background-image: url('/images/bg-desktop.svg');
+}
+
+#logo {
+    cursor: pointer;
+    height: 50px;
+    margin: 50px 100px;
+}
+
+h1, p {
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+#principal {
+    position: absolute;
+    left: 100px;
+    width: 600px;
+}
+
+.texto-botao {
+    margin-left: 800px;
+}
+
+h1 {
+    font-size: 40px;
+    width: 500px;
+    padding-top: 50px;
+}
+
+p {
+    width: 440px;
+    color: #e8e8e8;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    cursor: pointer;
+    background: #ffffff;
+    font-size: 16px;
+    color: #674bb1;
+    box-shadow: #0000004a 2px 2px 2px 2px; 
+    border: none;
+    padding: 15px 60px;
+    border-radius: 30px;
+}
+
+/*footer*/
+
+.logo-div {
+    margin-top: 130px;
+    margin-right: 150px;
+    float: right;
+
+}
+
+.logo {
+    cursor: pointer;
+    margin: 8px;
+    height: 36px;
+}
